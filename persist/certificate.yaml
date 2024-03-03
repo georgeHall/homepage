@@ -1,0 +1,14 @@
+---
+apiVersion: cert-manager.io/v1
+kind: Certificate
+metadata:
+  namespace: homepage
+  name: homepage-gerh-co-uk
+spec:
+  secretName: homepage-gerh-co-uk-tls
+  issuerRef:
+    name: letsencrypt-production
+    kind: ClusterIssuer
+  commonName: "homepage.gerh.co.uk"
+  dnsNames:
+    - "homepage.gerh.co.uk"

@@ -1,0 +1,31 @@
+---
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: homepage
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+  - ReadWriteMany
+  persistentVolumeReclaimPolicy: Recycle
+  nfs:
+    path: /mnt/nfsshare/homepage
+    server: 10.0.0.100
+  claimRef:
+    name: homepage-images
+    namespace: homepage
+---
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: homepage-images
+  namespace: homepage
+spec:
+  storageClassName: ""
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 10Gi
+

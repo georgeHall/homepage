@@ -1,0 +1,108 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: homepage
+  namespace: homepage
+  labels:
+    app.kubernetes.io/name: homepage
+data:
+  kubernetes.yaml: |
+    mode: cluster
+  settings.yaml: |
+    title: Homepage
+    color: slate
+    theme: "dark"
+    hideErrors: true
+    layout:
+      Network:
+        style: col
+      CI:
+        style: col
+      Monitoring:
+        style: col
+      
+  custom.css: ""
+  custom.js: ""
+  bookmarks.yaml: |
+    - Developer:
+        - Github:
+            - abbr: GH
+              href: https://github.com/georgeHall
+              icon: github.png
+        - GitLab:
+            - abbr: GL
+              href: https://gitlab.com/george_edward_hall
+              icon: gitlab.png
+        - Cloudflare:
+            - abbr: CF
+              href: https://dash.cloudflare.com
+              icon: cloudflare.png
+        - LinuxFoundation:
+            - abbr: LF
+              href: https://trainingportal.linuxfoundation.org/learn/dashboard
+              icon: https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg
+    
+    - Social:
+        - Reddit:
+            - icon: reddit.png
+              href: https://reddit.com/
+              description: The front page of the internet
+
+    - Entertainment:
+        - YouTube:
+            - abbr: YT
+              href: https://youtube.com/
+              icon: youtube.png
+  services.yaml: |
+    - Network:
+      - Traefik:
+          href: https://traefik.gerh.co.uk/
+          description: Traefik Homepage
+          icon: traefik.png
+          widget:
+            type: traefik
+            url: https://traefik.gerh.co.uk
+      - PiHole:
+          href: https://pihole.zero.gerh.co.uk/admin
+          description: Pihole Homepage
+          icon: https://pihole.zero.gerh.co.uk/admin/img/logo.svg
+          widget:
+            type: pihole
+            url: https://pihole.zero.gerh.co.uk
+            key: 113459eb7bb31bddee85ade5230d6ad5d8b2fb52879e00a84ff6ae1067a210d3
+      - DockerTraefik:
+          href: https://traefik.zero.gerh.co.uk/
+          description: Traeifk Homepage
+          icon: traefik.png
+          widget:
+            type: traefik
+            url: https://traefik.zero.gerh.co.uk 
+    - CI:
+      - Argo CD:
+          href: https://argocd.gerh.co.uk/
+          description: Argo CD Deployment 
+          icon: https://argocd.gerh.co.uk/assets/images/logo.png
+  
+  widgets.yaml: |
+    - kubernetes:
+        cluster:  
+          show: true
+          cpu: true
+          memory: true
+          showLabel: true
+          label: "cluster"
+        nodes:
+          show: true
+          cpu: true
+          memory: true
+          showLabel: true
+    - resources:
+        backend: resources
+        expanded: true
+        cpu: true
+        memory: true
+    - search:
+        provider: duckduckgo
+        target: _blank
+  docker.yaml: ""
