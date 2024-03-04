@@ -26,41 +26,41 @@ data:
   custom.js: ""
   bookmarks.yaml: |
     - Developer:
-        - Github:
-            - abbr: GH
-              href: https://github.com/georgeHall
-              icon: github.png
-        - GitLab:
-            - abbr: GL
-              href: https://gitlab.com/george_edward_hall
-              icon: gitlab.png
-        - Cloudflare:
-            - abbr: CF
-              href: https://dash.cloudflare.com
-              icon: cloudflare.png
-        - LinuxFoundation:
-            - abbr: LF
-              href: https://trainingportal.linuxfoundation.org/learn/dashboard
-              icon: https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg
+      - Github:
+          abbr: GH
+          href: https://github.com/georgeHall
+          icon: github.png
+      - GitLab:
+          abbr: GL
+          href: https://gitlab.com/george_edward_hall
+          icon: gitlab.png
+      - Cloudflare:
+          abbr: CF
+          href: https://dash.cloudflare.com
+          icon: cloudflare.png
+      - LinuxFoundation:
+          abbr: LF
+          href: https://trainingportal.linuxfoundation.org/learn/dashboard
+          icon: https://www.linuxfoundation.org/hubfs/LF%20Logo%20White.svg
     
     - Social:
-        - Reddit:
-            - icon: reddit.png
-              href: https://reddit.com/
-              description: The front page of the internet
-        - LinkedIn:
-            - icon: linkedin.png
-              href: https://linkedin.com/
-              description: Professional Community
+      - Reddit:
+          icon: reddit.png
+          href: https://reddit.com/
+          description: The front page of the internet
+      - LinkedIn:
+          icon: linkedin.png
+          href: https://linkedin.com/
+          description: Professional Community
     - Entertainment:
-        - YouTube:
-            - abbr: YT
-              href: https://youtube.com/
-              icon: youtube.png
-        - Nebula:
-            - abbr: NEB
-              href: https://nebula.tv/
-              icon: https://nebula.tv/static/nebula-logo-light@2x-8b369ecc.png
+      - YouTube:
+         abbr: YT
+          href: https://youtube.com/
+          icon: youtube.png
+      - Nebula:
+          abbr: NEB
+          href: https://nebula.tv/
+          icon: https://nebula.tv/static/nebula-logo-light@2x-8b369ecc.png
   services.yaml: |
     - Network:
       - Traefik:
