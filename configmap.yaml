@@ -54,9 +54,9 @@ data:
           description: Professional Community
     - Entertainment:
       - YouTube: 
-          abbr: YT
-          href: https://youtube.com/
-          icon: youtube.png
+          # abbr: YT
+          # href: https://youtube.com/
+          # icon: youtube.png
       - Nebula:
           href: https://nebula.tv/
           icon: https://nebula.tv/static/nebula-logo-light@2x-8b369ecc.png
