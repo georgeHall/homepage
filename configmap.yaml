@@ -57,6 +57,10 @@ data:
             - abbr: YT
               href: https://youtube.com/
               icon: youtube.png
+        - Nebula:
+            - abbr: NEB
+              href: https://nebula.tv/
+              icon: https://nebula.tv/static/nebula-logo-light@2x-8b369ecc.png
   services.yaml: |
     - Network:
       - Traefik:
