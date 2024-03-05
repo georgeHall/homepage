@@ -93,6 +93,15 @@ data:
           href: https://argocd.gerh.co.uk/
           description: Argo CD Deployment 
           icon: https://argocd.gerh.co.uk/assets/images/logo.png
+    - Cloud:
+      - Google:
+          href: https://console.cloud.google.com/welcome
+          description: GCloud Homepage
+          icon: google-cloud-platform.png
+      - Amazon:
+          href: https://consol.aws.amazon.com
+          description: AWS
+          icon: aws.png
   
   widgets.yaml: |
     - kubernetes:
