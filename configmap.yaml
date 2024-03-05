@@ -14,14 +14,7 @@ data:
     color: slate
     theme: "dark"
     hideErrors: true
-    layout:
-      Network:
-        style: col
-      CI:
-        style: col
-      Cloud:
-        style: col
-      
+
   custom.css: ""
   custom.js: ""
   bookmarks.yaml: |
