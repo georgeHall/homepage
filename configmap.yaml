@@ -50,6 +50,9 @@ data:
       - LinkedIn:
         - icon: linkedin.png
           href: https://linkedin.com/
+      - Outlook:
+        - icon: microsoft.png
+          href: https://outlook.live.com/
     - Entertainment:
       - YouTube: 
         - abbr: YT
