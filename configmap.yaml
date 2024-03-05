@@ -92,7 +92,7 @@ data:
           description: GCloud Homepage
           icon: google-cloud-platform.png
       - Amazon:
-          href: https://consol.aws.amazon.com
+          href: https://console.aws.amazon.com
           description: AWS
           icon: aws.png
   
