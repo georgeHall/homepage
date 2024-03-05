@@ -19,7 +19,7 @@ data:
         style: col
       CI:
         style: col
-      Monitoring:
+      Cloud:
         style: col
       
   custom.css: ""
