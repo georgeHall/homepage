@@ -99,6 +99,15 @@ data:
           href: https://portal.azure.com
           description: Azure
           icon: azure.png
+    - Media:
+      - Sonarr:
+          href: https://sonarr.gerh.co.uk
+          description: Sonarr
+          icon: sonarr.png
+      - Jellyfin:
+          href: https://jellyfin.gerh.co.uk
+          description: JellyFin:
+          icon: jellyfin.png
   
   widgets.yaml: |
     - kubernetes:
