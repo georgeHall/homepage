@@ -106,7 +106,7 @@ data:
           icon: sonarr.png
       - Jellyfin:
           href: https://jellyfin.gerh.co.uk
-          description: JellyFin:
+          description: JellyFin
           icon: jellyfin.png
   
   widgets.yaml: |
