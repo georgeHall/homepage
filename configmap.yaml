@@ -95,6 +95,10 @@ data:
           href: https://console.aws.amazon.com
           description: AWS
           icon: aws.png
+      - Azure:
+          href: https://portal.azure.com
+          description: Azure
+          icon: azure.png
   
   widgets.yaml: |
     - kubernetes:
